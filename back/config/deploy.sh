@@ -1,9 +1,9 @@
 #!/bin/sh
-path=$(cd $( dirname ${BASH_SOURCE[0]}) && pwd )/matcha_seed.sql;
+path=/home/devuser/personal/42_www_matcha/back/config/matcha_seed.sql;
 
-cd //Users/lcordeno/Applications/MAMP/mysql/bin;
+#cd //Users/lcordeno/Applications/MAMP/mysql/bin;
 
-./mysql < $path -u root -pazerty123;
+mysql < $path -u root -pbharath;
 
 echo "Database deployed!"
 

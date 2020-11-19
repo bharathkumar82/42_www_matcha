@@ -76,6 +76,9 @@ module.exports = {
       saltLength: 10,
       iterations: 5
     });
+    data[6] = 52;
+    data[7] = 53;
+    console.log("Bharathhh" + data);
     try {
       var result = await pool.query({
         sql:

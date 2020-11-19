@@ -5,9 +5,9 @@ var pool = mysql.createPool({
   connectionLimit: 10,
   host: "localhost",
   user: "root",
-  password: "azerty123",
+  password: "P@ssw0rd",
   database: "matcha",
-  port: "3390"
+  port: "3306"
 });
 
 pool.getConnection((err, connection) => {
