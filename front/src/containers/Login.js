@@ -34,16 +34,7 @@ class Login extends Component {
         <div className="row login-register-page">
           <div className="col a12 m6" id="login-box">
             <div className="login-header">
-              Only a few clicks away from{" "}
-              <span className="logo-header-love">
-                L
-                <img
-                  className="login-love-logo"
-                  src={Logo}
-                  alt="Logo on login"
-                />
-                ve
-              </span>
+              Only a few clicks away
             </div>
             <div className="card-panel center">
               <i className="medium material-icons">account_box</i>

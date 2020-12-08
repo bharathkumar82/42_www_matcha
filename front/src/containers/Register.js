@@ -54,21 +54,12 @@ class Register extends Component {
         {this.state.responseToPost === "success" ? (
           <div className="msg msg-info z-depth-3">Bravo!</div>
         ) : (
-          ""
-        )}
+            ""
+          )}
         <div className="row login-register-page">
           <div className="col a12 m6" id="login-box">
             <div className="login-header">
-              Register cause all you need is{" "}
-              <span className="logo-header-love">
-                L
-                <img
-                  className="login-love-logo"
-                  src={Logo}
-                  alt="Logo on login"
-                />
-                ve
-              </span>
+              Register
             </div>
             <div className="card-panel center">
               <i className="medium material-icons">person_add</i>

@@ -60,11 +60,11 @@ nav ul a {
 }
 
 nav {
-  background-color: #ffb6d3 !important;
+  background-color: #130101 !important;
 }
 
 .nav-wrapper {
-  background-color: #ffb6d3;
+  background-color: #130101;
   width: 1000px;
   margin: auto;
   margin-bottom: 20%;
@@ -227,7 +227,7 @@ input[type="email"]:not(.browser-default):focus:not([readonly]) {
 /* Homepage and Search */
 
 .home-background {
-  background-image: url("../assets/home-background.jpg");
+  background-image: url("../assets/home-background-mobile.jpg");
   height: 100%;
   background-position-x: center;
   background-repeat: no-repeat;
